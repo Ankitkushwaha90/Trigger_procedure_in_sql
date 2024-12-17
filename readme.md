@@ -45,10 +45,10 @@ Here, we create **two triggers**:
 - **AFTER INSERT Trigger**
 - **AFTER UPDATE Trigger**
 ```sql
-DELIMITER $$
+DELIMITER $$ ##start from in this command line
 ## write content for trigger
 SELECT * FROM table_name;
-END $$
+END $$ ##end from in this command line
 ```
 ```sql
 -- Trigger for AFTER INSERT
