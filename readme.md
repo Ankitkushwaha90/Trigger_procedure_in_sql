@@ -45,8 +45,9 @@ Here, we create **two triggers**:
 - **AFTER INSERT Trigger**
 - **AFTER UPDATE Trigger**
 ```sql
-delimiter $$
+DELIMITER $$
 ## write content for trigger
+SELECT * FROM table_name;
 END $$
 ```
 ```sql
