@@ -44,7 +44,11 @@ We want to log whenever a student record is **INSERTED** or **UPDATED** into the
 Here, we create **two triggers**:
 - **AFTER INSERT Trigger**
 - **AFTER UPDATE Trigger**
-
+```sql
+delimiter $$
+## write content for trigger
+END $$
+```
 ```sql
 -- Trigger for AFTER INSERT
 CREATE TRIGGER after_student_insert
